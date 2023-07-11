@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami:Print effective user id
+echo "hello $USER"
