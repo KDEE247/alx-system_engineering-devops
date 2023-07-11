@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "hello $KAYODE"
+whoami:Print effective user id
