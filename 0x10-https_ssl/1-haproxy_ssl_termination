@@ -41,7 +41,7 @@ frontend darklibs-frontend
         default_backend darklibs-backend
 
 frontend darklibs-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/darklibs.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.darklibs.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend darklibs-backend
 
