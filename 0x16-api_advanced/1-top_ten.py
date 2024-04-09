@@ -3,6 +3,7 @@
     this module contains the function top_ten
 '''
 import requests
+
 from sys import argv
 
 def top_ten(subreddit):
