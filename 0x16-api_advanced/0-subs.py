@@ -2,9 +2,9 @@
 '''
     this module contains the function number_of_subscribers
 '''
-import requests
-
 from sys import argv
+
+import requests
 
 
 def number_of_subscribers(subreddit):
